@@ -1,0 +1,708 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Inter', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing:-1px;
+}
+h1 span
+{
+    color: #794CFF;
+}
+#menu
+{
+    font-size: larger;
+    color: #35414B;
+    line-height: 1.1;
+}
+#nav-menu-tag
+{
+    font-size:6.5px;
+}
+#nav-bar
+{
+    font-size: larger;
+    display: flex;
+    min-height: 4.5em;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+#landing-about
+{
+    margin: 3em 3em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    max-width:20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#get-account
+{
+    padding: 0.2em 1.3em;
+    border-radius: 50px;
+    background-color: #EFFBF1;
+    font-size: 13px;
+    color: #4E5A65;
+}
+#sale
+{
+    display: none;
+}
+#about-head
+{
+    font-size: 31px;
+    margin: 0.5em 0.2em;
+    margin-bottom: 0.3em;
+    font-weight: 550;
+    text-align: center;
+    line-height:1.2;
+    color: #35414B;
+}
+#about-description
+{
+    margin: 0 0.58em;
+    font-size: 16px;
+    line-height:1.5;
+    color: #4E5A65;
+}
+#form
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em 0;
+    margin-top: 0.8em;
+}
+#email-id
+{
+    margin-bottom: 0.5em;
+    padding: 1rem 14vw;
+    font-size: 15px;
+    border:1px solid #4E5A65 ;
+    border-radius: 4px;
+    opacity: 0.6;
+}
+.button1
+{
+    padding: 1rem 14vw;
+    font-size: 15px;
+    border-radius: 4px;
+    color: white;
+    background-color: #794CFF;
+    border: 0px solid beige;
+    margin-bottom: 2em;
+}
+#g21
+{
+    margin-top: -4.5em;
+}
+.light-purple
+{
+    max-width: 100%;
+    background-color: #FBFAFE;
+    border-top: 1px solid #F4F0FC;
+    border-bottom: 1px solid #F4F0FC;
+}
+.img
+{
+    max-width: 90%;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2em;
+}
+#survey
+{
+    margin: 0 1em;
+    max-width: 393px;
+    margin-top: 1em;
+    border-bottom: 0.5em solid #794CFF;
+    border-radius: 10px 10px 0 0;
+    background-color: #F6F3FC;
+}
+.uses-header
+{
+    text-align: center;
+    font-size: large;
+    margin: 1em 0;
+    font-weight:600;
+    position: relative;
+    top:0.5em;
+    color: #4E5A65;
+    line-height: 1.5;
+}
+.uses-description
+{
+    text-align: center;
+    line-height: 1.5;
+    color: #4E5A65;
+    margin: 0 3em;
+    margin-bottom: 1em;
+}
+.uses-li
+{
+    margin: 0 1em;
+    max-width: 393px;
+    margin-top: 1em;
+    border-bottom: 1px solid black;
+}
+#last-li-purple
+{
+    border-bottom: 0px solid #D6C6E7;
+}
+h2
+{
+    text-align: center;
+    margin-top:3em;
+    font-weight:600;
+    color: #4E5A65;
+    font-size: large;
+    margin-bottom: 2em;
+}
+.work-easier .uses-li
+{
+    border-bottom: 0px solid black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.work-easier
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.work-easier button
+{
+    padding: 0.8rem 22vw;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 0px solid beige;
+}
+#button-benefits
+{
+    color:#794CFF;
+    background-color: #ECE5FF;
+    margin-bottom: 3em;
+}
+#download-option
+{
+    max-width: 414px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #794CFF;
+    color: white;
+}
+.trust-header
+{
+    text-align: center;
+    font-size: 23px;
+    margin: 1em 0;
+    font-weight:600;
+    color: white;
+    line-height: 1.5;
+}
+.download-img
+{
+  margin-bottom: 1.5em;
+  border-radius: 10px;
+}
+#footer
+{
+    margin-top: 2em;
+    background-color:#1D2830;
+    display: flex;
+    flex-direction: column;
+}
+.img-footer
+{
+    max-width: 190px;
+    border-radius: 10px;
+    margin-left: 2em;
+    margin-top: 1em;
+    border: 1px solid white;
+}
+#comments
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#extra-people
+{
+    display: none;
+}
+.name
+{
+ margin-top: 0.5em;
+ font-size: 13px;
+ color: #35414B;
+ margin-bottom: 0.5em;
+}
+.position
+{
+ font-size: 10px;
+ color: #4E5A65;
+ margin-bottom: 1.5em;
+}
+#why
+{
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+}
+#reason
+{
+    margin-bottom: 2.5em;
+}
+#download-img
+{
+    display: flex;
+    flex-direction: column;
+}
+#copyright
+{
+    border-top: 1px solid #333D44;
+    margin: 2em 0em;
+    color: white;
+}
+#copyright pre
+{
+    margin: 0em 2em;
+    margin-top:2em;
+    font-size: 14.5px;
+    color: #91969D;
+}
+#trusted-teams
+{
+    color: #4E5A65;
+ margin-top:2em;
+ text-align: center;
+ font-size: 12px;
+}
+#trusted-teams span
+{
+    font-weight: 600;
+}
+#menu-expand , #auth
+{
+    display: none;
+}
+#g26-2
+{
+    display: none;
+}
+#work-easier-2
+{
+    display: none;
+}
+#slack
+{
+    display: none;
+}
+#first-person
+{
+    margin-left:1em;
+}
+#companies
+{
+    display:flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-around;
+    margin: 1em 1em;
+    margin-bottom: 3em;
+}
+#design
+{
+    display: none;
+}
+#install
+{
+    position: relative;
+    right:2em;
+}
+#companies img
+{
+    max-width:3em;
+    min-height: 0.8em;
+}
+.footer-extra
+{
+    display: none;
+}
+.footer-li
+{
+    padding: 1em 0;
+    margin-top:1em;
+    width:70%;
+    margin: 0em 2em;
+    color: white;
+    font-size: large;
+}
+@media(min-width:432px)
+{
+   #menu
+   {
+    display: none;
+   }
+    #auth,#menu-expand
+   {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8em;
+    color: #35414B;
+   }
+   #menu-expand p
+   {
+     margin: 0 1.5em;
+   }
+   #menu-expand
+   {
+    margin-right: 2em;
+   }
+   #auth
+   {
+    margin-left: 2em;
+   }
+   #auth button
+   {
+    margin-left:1em;
+    padding: 0.8em 1.5em;
+    margin-bottom: 0;
+    color:#794CFF;
+    background-color: #ECE5FF;
+   }
+   #nav-bar
+   {
+    margin-top:1em;
+    max-width: 100%;
+    justify-content: space-around;
+    border: 1px solid block;
+   }
+   #login
+   {
+    margin-top: 0.8em;
+   }
+   h1
+   {
+    margin-left: 1em;
+    font-size: 1.1em;
+    font-weight: 500;
+   }
+   #nav
+   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+   }
+   #landing-about
+   {
+    max-width:100%;
+    margin-top:5em;
+   }
+   #about-head
+   {
+    font-size:3.5em;
+   }
+   #about-description
+   {
+    max-width:30em;
+    text-align: center;
+   }
+   #g21
+   {
+    max-width: 66%;
+    min-height: 66%;
+    margin-left: 17%;
+   }
+   .uses-li
+   {
+    border: 0px solid black;
+   }
+   #g26
+   {
+    display: none;
+   }
+   #g26-2
+   {
+    display: inline;
+    max-width: 42%;
+    min-height: 42%;
+    margin-left: 8em;
+    margin-top:4em;
+    margin-bottom: 5em;
+   }
+   #g26-purple-section
+   {
+    margin-left: 2em;
+   }
+   #g26-section
+   {
+    display: flex;
+    flex-direction: row;
+   }
+   #get-started-button
+   {
+    padding: 1em 1em;
+    margin-right: 6.7em;
+   }
+   #g26-header
+   {
+    font-size: 2em;
+    text-align: start;
+    margin-left: 1em;
+    line-height: normal;
+    margin-top:3em;
+   }
+   #g26-description
+   {
+    text-align: start;
+    font-size: 1em;
+    margin-left: 5em;
+   }
+   #download-option
+   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 4em 9em;
+    max-width: 80%;
+    padding: 1.75em 5em;
+    border-radius: 1em;
+   }
+   #trust-header
+   {
+    text-align: start;
+    font-size: 1.75em;
+   }
+   #download-img
+   {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5em;
+   }
+   .download-img
+   {
+    margin-top: 2em;
+    margin-right: 1.5em;
+    max-width: 10em;
+   }
+   #button-benefits
+   {
+    display: none;
+   }
+   #work-easier
+   {
+    display: flex;
+    flex-direction:column;
+   }
+   #work-easier-1,#work-easier-2
+   {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+   }
+   #work-easier-2
+   {
+    margin-bottom: 4em;
+   }
+   h2
+   {
+    font-size: 2em;
+   }
+   #light-purple-1
+   {
+     display: flex;
+     flex-direction:row ;
+     justify-content: space-around;
+     padding: 4em 3em;
+   }
+   #survey
+   {
+    border-radius: 0 10px 10px 0px;
+    border-left: 0.5em solid #794CFF;
+    border-bottom: 0em solid #794CFF;
+   }
+   #form
+   {
+    display: flex;
+    flex-direction: column;
+   }
+   #email-id,#form-button
+   {
+    padding:0.8em 4em !important;
+    border-radius: 0 0 0 0;
+   }
+   #get-account
+   {
+    font-size: 1em;
+    background-color: #EFFBF1;
+   }
+   #why
+   {
+    margin-top:2.5em;
+    margin-bottom:1.5em;
+    font-size: 2.25em;
+   }
+   #reason
+   {
+    margin-bottom: 4em;
+    max-width: 25em;
+    font-size: 1em;
+   }
+   .name
+   {
+    font-size:1em;
+    font-weight: 600;
+    color: #1D2830;
+   }
+   .position
+   {
+    font-size:1em;
+   }
+   #extra-people
+   {
+    display: inline;
+   }
+   #trusted-teams
+   {
+     font-size:1em;
+   }
+   #companies
+{
+    display:flex;
+    flex-direction: row;
+    max-width: 80%;
+    justify-content: space-around;
+    margin: 3em 1em;
+    margin-left: 10em;
+}
+#companies img
+{
+    max-width:4em;
+    min-height: 1.25em;
+}
+#footer-mania
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding : 0 8em;
+}
+.footer-extra
+{
+    display: inline;
+}
+.footer-li li
+{
+    margin: 2em 0;
+    font-size: 0.8em;
+}
+.footer-li
+{
+    margin-top:3em;
+    font-size: 1em;
+}
+.img-footer
+{
+    max-width: 8em;
+}
+#people,#extra-people
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.person
+{
+    margin: 0 4em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tag
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-top:1em;
+}
+.people-img
+{
+    max-width: 2.5em !important;
+    max-height: 2.5em !important;
+}
+#slack
+{
+    display: inline;
+}
+#first-person
+{
+    border-top:3px solid black;
+}
+#sale
+{
+    display: inline;
+    border: 1px solid black;
+    padding: 0.2em 1.4em;
+    border-radius:50px ;
+    background-color: #81C43B;
+    color: white;
+}
+#design
+{
+    display: block;
+    z-index: -1;
+    min-height: 120vh;
+    border-radius: 0 0 20% 20%;
+    background-color: #FBFAFE;
+    border-bottom: 1px solid #F4F0FC;
+}
+}
